@@ -1,6 +1,7 @@
 import { RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "../components/RainbowHighlight";
 import myData from "../constants/data";
+import Image from "next/image";
 
 export default function Hero() {
   const colors = ["#D6ECB9", "#FFC196", "#A3E1E9", "#C4BEF1"];
@@ -23,10 +24,12 @@ export default function Hero() {
       {/* Image container */}
       <div>
         <div className="relative w-3/4 mx-auto">
-          <img
+          <Image
             src={myData.avatarUrl}
             alt="avatar"
-            className="w-[30rem] h-[30rem] shadow rounded"
+            width={300}
+            height={300}
+            className="shadow rounded"
           />
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
@@ -43,7 +46,7 @@ export default function Hero() {
                   d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"
                 />
               </svg>
-              <p className="font-mono">That's me</p>
+              <p className="font-mono">That&#39;s me</p>
             </div>
           </div>
         </div>
