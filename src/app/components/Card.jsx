@@ -24,7 +24,7 @@ function Card({ title, github, imgUrl, link, stack }) {
         </a>
       </div>
 
-      <div className="absolute flex justify-center items-center w-full flex-wrap gap-2 bottom-5 z-10">
+      <div className="absolute flex justify-center items-center w-full flex-wrap gap-2 bottom-14 z-10">
         {stack.map((item, index) => (
           <Chip key={index} background={getBackground(item)}>
             {item}
@@ -38,7 +38,7 @@ function Card({ title, github, imgUrl, link, stack }) {
         rel="noopener noreferrer"
         className="w-full block shadow-2xl"
       >
-        <h1 className="absolute flex items-center top-5 right-2 text-gray-50 font-bold text-xl bg-green-600 hover:bg-green-800 rounded-lg px-2">
+        <h1 className="absolute flex items-center top-5 right-2 text-gray-50 font-bold text-xl bg-rose-300 hover:bg-rose-200 rounded-lg px-2">
           <BsGithub className="inline-block mx-2" />
           {title}
         </h1>

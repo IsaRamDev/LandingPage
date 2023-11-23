@@ -111,12 +111,14 @@ function Navbar() {
         <div className="hidden md:flex gap-4 ">
           <Link
             href={myData.socialLinks.Github}
+            target="_blank"
             className="text-base font-bold hover:text-rose-300"
           >
             <BsGithub className="text-2xl" />
           </Link>
           <Link
             href={myData.socialLinks.LinkedIn}
+            target="_blank"
             className="text-base font-bold hover:text-rose-300"
           >
             <BsLinkedin className="text-2xl" />
@@ -179,13 +181,15 @@ function Navbar() {
 
       <div className="flex md:hidden w-full gap-4 justify-center py-5">
         <Link
-          href="https://github.com/NeftaliVenancio/Robocoons-FLL-Challenge-2023.git"
+          href={myData.socialLinks.Github}
+          target="_blank"
           className="block text-base font-bold hover:text-rose-300"
         >
           <BsGithub className="text-2xl" />
         </Link>
         <Link
-          href="https://github.com/NeftaliVenancio/Robocoons-FLL-Challenge-2023.git"
+          href={myData.socialLinks.LinkedIn}
+          target="_blank"
           className="text-base font-bold hover:text-rose-300"
         >
           <BsLinkedin className="text-2xl" />
@@ -194,7 +198,7 @@ function Navbar() {
           href="/resume"
         >
           <span className="text-base font-bold p-3 md:p-3 bg-rose-300 rounded-xl hover:bg-rose-900 ">
-            {"Documentación "}
+            {"Resume "}
           </span>
         </Link>
       </div>

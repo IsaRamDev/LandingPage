@@ -23,7 +23,7 @@ export default function Hero() {
       </div>
       {/* Image container */}
       <div>
-        <div className="relative w-3/4 mx-auto">
+        <div className="relative w-3/4 mx-auto py-5 md:py-0">
           <Image
             src={myData.avatarUrl}
             alt="avatar"
