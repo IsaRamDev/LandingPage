@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <Container>
       <div>
-      <a class="text-white text-2xl flex justify-center font-bold lg:hidden " href="/isaCV2.pdf">Download Resume in PDF</a>
+      <a class="text-black text-2xl flex justify-center font-bold lg:hidden " href="/isaCV2.pdf">Download Resume in PDF</a>
         <object
           data="/isaCV2.pdf"
           type="application/pdf"
