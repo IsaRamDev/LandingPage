@@ -13,7 +13,7 @@ export default function Hero() {
           {["Web Developer", "Front-End", "Innovation", "CatLover"].map(
             (text, idx) => (
               <RainbowHighlight key={idx} color={colors[idx]}>
-                <h1 className="text-4xl mx-4 md:text-6xl xl:text-7xl font-bold text-gray-700 my-2">
+                <h1 className="font-roboto text-4xl mx-4 md:text-6xl xl:text-7xl font-bold text-gray-700 my-2">
                   {text}
                 </h1>
               </RainbowHighlight>
