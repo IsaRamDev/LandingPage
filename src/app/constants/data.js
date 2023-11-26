@@ -41,7 +41,7 @@ const myData = {
       title: "💀 La Catrina MX 💀",
       link: "https://la-catrina-mx.vercel.app/",
       github: "https://github.com/IsaRamDev/LaCatrinaMX",
-      imgUrl: "/portafolioIsa02.jpg",
+      imgUrl: "/portafolioIsa02.png",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Next.js"],
     },{
       title: "📋 Daily To Do List 📋",
