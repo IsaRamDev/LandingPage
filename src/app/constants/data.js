@@ -38,6 +38,12 @@ const myData = {
   ],
   projects: [
     {
+      title: "💀 La Catrina MX 💀",
+      link: "https://la-catrina-mx.vercel.app/",
+      github: "https://github.com/IsaRamDev/LaCatrinaMX",
+      imgUrl: "/portafolioIsa02.jpg",
+      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Next.js"],
+    },{
       title: "📋 Daily To Do List 📋",
       link: "https://to-do-list-react-isaramdev.vercel.app/",
       github: "https://github.com/IsaRamDev/ToDoListReact",
