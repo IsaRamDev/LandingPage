@@ -8,12 +8,12 @@ export default function Hero() {
   return (
     <div className="flex flex-col md:flex-row justify-around items-center w-full">
       {/* Text container */}
-      <div>
+      <div className="flex flex-col gap-y-4">
         <RoughNotationGroup show={true}>
           {["Web Developer", "Front-End", "Innovation", "CatLover"].map(
             (text, idx) => (
               <RainbowHighlight key={idx} color={colors[idx]}>
-                <h1 className="font-roboto text-4xl mx-4 md:text-6xl xl:text-7xl font-bold text-gray-700 mb-4">
+                <h1 className="font-roboto text-4xl mx-4 md:text-6xl xl:text-7xl font-bold text-gray-700">
                   {text}
                 </h1>
               </RainbowHighlight>
