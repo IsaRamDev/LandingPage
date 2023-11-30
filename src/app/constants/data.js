@@ -38,6 +38,12 @@ const myData = {
   ],
   projects: [
     {
+      title: "🎥🍿🎬 Movies Review 🎥🍿🎬",
+      link: "https://isaramdev-movies-review.vercel.app/",
+      github: "https://github.com/IsaRamDev/isaramdev-movies-review",
+      imgUrl: "/portafolioIsa04.png",
+      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+    },{
       title: "🌤🌧❄🌩 Weather News 🌤🌧❄🌩",
       link: "https://isaramdev-weather-search.vercel.app/",
       github: "https://github.com/IsaRamDev/WeatherSearch",
