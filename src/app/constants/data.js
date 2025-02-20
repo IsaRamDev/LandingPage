@@ -38,6 +38,30 @@ const myData = {
   ],
   projects: [
     {
+      title: "Kaix Landing Page",
+      link: "https://kaix.mx/",
+      github: "https://github.com/kaix-mx/kaix-landing-serverless",
+      imgUrl: "/portafolioIsa10.png",
+      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+    },{
+      title: "Luzete",
+      link: "https://www.luzetefashion.com/",
+      github: "https://github.com/IsaRamDev/luzete-fashion",
+      imgUrl: "/portafolioIsa09.png",
+      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+    },{
+      title: "Digital Circuit Simulator",
+      link: "https://digital-circuit-simulator-pi.vercel.app/",
+      github: "https://github.com/IsaRamDev/IsaRamDev-Digital-Circuit-Simulator",
+      imgUrl: "/portafolioIsa08.png",
+      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+    },{
+      title: "Landing Page",
+      link: "https://landing-page-lac-five.vercel.app/",
+      github: "https://github.com/IsaRamDev/LandingPage",
+      imgUrl: "/portafolioIsa07.png",
+      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js", "Vercel"],
+    },{
       title: "🤖 Robocoons 🤖",
       link: "https://robocoons-lilac.vercel.app/",
       github: "https://github.com/IsaRamDev/Robocoons",
@@ -157,6 +181,22 @@ const myData = {
   },
   experience: [
     {
+      title: "Mid Front-End Web Developer",
+      icon: "/companies/Technologent.png",
+      company: "Technologent ",
+      location: "California, USA",
+      startDate: "03/2024",
+      endDate: "Currently",
+      companyLink: "https://www.technologent.com/",
+      desc: [
+        "Project: KBrain (AI-Driven Chat Solution)",
+        "•	Developed and maintained React-based components, integrating machine learning APIs to enhance interactivity.",
+        "•	Improved UI/UX for a seamless experience across admin panels and customer-facing pages.",
+        "•	Optimized performance by reducing API calls and implementing lazy loading techniques.",
+        "•	Utilized Git for version control and contributed to clear release notes and documentation."
+      ],
+    },
+    {
       title: "Freelance Web Developer",
       icon: "/favicon.ico",
       company: "IsaRamDev",
@@ -165,9 +205,8 @@ const myData = {
       endDate: "Currently",
       companyLink: "https://isaramdev.com/",
       desc: [
-        "Projects: Specializing in crafting high-quality websites including blogs and landing pages.",
-        "Expertise in Next.js, Tailwind, Vite.js, React, and vanilla JavaScript, coupled with responsive CSS techniques. ",
-        "Notably developed the Robocoon’s landing page, showcasing a teenage robotics team set to represent Mexico on an international stage.",
+        "•	Built high-quality websites, blogs, and landing pages using Next.js, Tailwind, Vite.js, and React.",
+        "•	Developed Robocon’s landing page to showcase a teenage robotics team representing Mexico internationally."
       ],
     },
     {
@@ -179,14 +218,10 @@ const myData = {
       endDate: "11/2023",
       companyLink: "https://sciodev.com/",
       desc: [
-        "Project: Pidamos.de",
-        " • Upgrading the project from Node 14 to Node 18.",
-        " • Updating and resolving code errors, enhancing code quality and maintainability.",
-        " • Transformed various page structures and component templates from class components to functional components.",
-        " • Improving React-based tables, ensuring compatibility with the latest Node update.",
-        " • Boosted PWA speed by shifting code execution from frontend to backend, optimizing API responses to deliver only essential data, ",
-        "   thereby reducing load times and improving overall performance.",
-        " • Full-stack development on both administrative and customer-facing interfaces, along with significant API enhancements.",
+        "Project: Pidamos.de (Delivery App Similar to Uber Eats)",
+        "•	Upgraded the front-end to modern standards, improving UI/UX and maintainability.",
+        "•	Boosted PWA speed by optimizing API calls and reducing unnecessary data processing.",
+        "•	Full-stack development, enhancing administrative and customer-facing features."
       ],
       skills: " React, React Native, PHP - Laravel, MySQL – WorkBench, Postman, Docker, XAMPP, MyPHPAdmin, Twilio – WhatsApp Twilio",
     },
@@ -199,11 +234,10 @@ const myData = {
       endDate: "08/2023",
       companyLink: "https://sciodev.com/",
       desc: [
-        "Project: ScrubMoney",
-        " • Full-stack development on: the user-facing mobile application, the administrative web interface (Admin Panel), and the backend API.",
-        " • Responsible for mobile interface design and implementation, ensuring compatibility with Figma prototypes and backend API integration.",
-        " • Enhanced API functionality with AWS Dynamo for comprehensive data management.",
-        " • Developed Admin Panel for web, aligning with app features and improving administrative oversight."
+        "Project: ScrubMoney (Financial App for Doctors in the US)",
+        "•	Developed a full-stack mobile and web application, integrating AWS DynamoDB.",
+        "•	Designed mobile UI with Figma and implemented API connectivity.",
+        "•	Built an admin panel for enhanced user management and reporting."
       ],
       skills: "React, React Native, XCode, NodeJS, TypeScript, SASS, and AWS services.",
     },
@@ -216,11 +250,10 @@ const myData = {
       endDate: "05/2022",
       companyLink: "https://sciodev.com/",
       desc: [
-        "Project: TryNow",
-        " • Implemented customizations for over 40 Shopify merchants in the apparel industry, enhancing the TryNow feature.",
-        " • Contributed to TryNow's SDK and checkout updates, ensured quality adherence to Figma designs, and developed self-service guides and tutorials.",
-        " • Documented issues and mentored engineers, used Git for version control.",
-        " • Optimized user experiences with A/B testing via Google Analytics & Optimize, also updating the company blog with Webflow."
+        "Project: TryNow (Try Now, Buy Later – Shopify App)",
+        "•	Customized features for 40+ Shopify merchants to enhance TryNow functionality.",
+        "•	Led A/B testing and Google Analytics optimization to improve user experience.",
+        "•	Contributed to SDK and checkout updates, improving purchase flexibility.",
       ],
       skills: "React, Shopify, JavaScript, HTML, CSS, and Liquid.",
     },
