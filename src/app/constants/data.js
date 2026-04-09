@@ -181,12 +181,28 @@ const myData = {
   },
   experience: [
     {
+      title: "Web Developer II",
+      icon: "/companies/BigCommerce.png",
+      company: "BigCommerce ",
+      location: "Remote",
+      startDate: "03/2024",
+      endDate: "08/2025",
+      companyLink: "https://www.bigcommerce.com/",
+      desc: [
+        "Products: BigCommerce · Makeswift · Feedonomics · Commerce",
+        "• Developed, migrated, and refactored React components across a monorepo architecture, building new features, moving components between sub-repositories, and modernizing legacy code to reduce technical debt and maintain consistency across the composable storefront.",
+        "• Identified and resolved UI bugs and rendering bottlenecks in enterprise-scale ecommerce storefronts, applying performance optimization techniques to improve stability, user experience, and Lighthouse scores for high-traffic deployments.",
+        "• Integrated Makeswift as a visual page builder layer, enabling non-technical teams to manage storefront content and layout independently, reducing developer dependency on routine content updates.",
+        "• Proactively researched and proposed frontend improvements, continuously raising code quality and maintainability standards across the team."
+      ],
+    },
+    {
       title: "Mid Front-End Web Developer",
       icon: "/companies/Technologent.png",
       company: "Technologent ",
       location: "California, USA",
       startDate: "03/2024",
-      endDate: "Currently",
+      endDate: "08/2025",
       companyLink: "https://www.technologent.com/",
       desc: [
         "Project: KBrain (AI-Driven Chat Solution)",
@@ -202,7 +218,7 @@ const myData = {
       company: "IsaRamDev",
       location: "Moroleón, Gto., México",
       startDate: "11/2023",
-      endDate: "Currently",
+      endDate: "03/2024",
       companyLink: "https://isaramdev.com/",
       desc: [
         "•	Built high-quality websites, blogs, and landing pages using Next.js, Tailwind, Vite.js, and React.",
