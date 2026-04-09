@@ -190,10 +190,16 @@ const myData = {
       companyLink: "https://www.bigcommerce.com/",
       desc: [
         "Products: BigCommerce · Makeswift · Feedonomics · Commerce",
-        "• Developed, migrated, and refactored React components across a monorepo architecture, building new features, moving components between sub-repositories, and modernizing legacy code to reduce technical debt and maintain consistency across the composable storefront.",
-        "• Identified and resolved UI bugs and rendering bottlenecks in enterprise-scale ecommerce storefronts, applying performance optimization techniques to improve stability, user experience, and Lighthouse scores for high-traffic deployments.",
-        "• Integrated Makeswift as a visual page builder layer, enabling non-technical teams to manage storefront content and layout independently, reducing developer dependency on routine content updates.",
-        "• Proactively researched and proposed frontend improvements, continuously raising code quality and maintainability standards across the team."
+        "• Developed, migrated, and refactored React components across a monorepo architecture, building new features, ",
+          "moving components between sub-repositories, and modernizing legacy code to reduce technical debt and maintain consistency ",
+          "across the composable storefront.",
+        "• Identified and resolved UI bugs and rendering bottlenecks in enterprise-scale ecommerce storefronts, ",
+          "applying performance optimization techniques to improve stability, user experience, and Lighthouse scores ",
+          "for high-traffic deployments.",
+        "• Integrated Makeswift as a visual page builder layer, enabling non-technical teams to manage storefront content ",
+          "and layout independently, reducing developer dependency on routine content updates.",
+        "• Proactively researched and proposed frontend improvements, continuously raising code quality and maintainability ",
+          "standards across the team."
       ],
     },
     {
