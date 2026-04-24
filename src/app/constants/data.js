@@ -39,7 +39,7 @@ const myData = {
   projects: [
     {
       title: "Kaix Landing Page",
-      link: "https://kaix-landing-page.vercel.app/",
+      link: "https://kaix-landing-page.vercel.app/sacvsa",
       github: "https://github.com/IsaRamDev/KAIX-LandingPage",
       imgUrl: "/portafolioIsa10.png",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
