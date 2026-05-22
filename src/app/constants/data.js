@@ -38,6 +38,12 @@ const myData = {
   ],
   projects: [
     {
+      title: "📈 Market Dashboard 📈",
+      link: "https://market-dashboard-sage-seven.vercel.app/",
+      github: "https://github.com/IsaRamDev/market-dashboard",
+      imgUrl: "/portafolioIsa11.png",
+      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js", "Recharts"],
+    },{
       title: "Kaix Landing Page",
       link: "https://kaix-landing-page.vercel.app/sacvsa",
       github: "https://github.com/IsaRamDev/KAIX-LandingPage",
