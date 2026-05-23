@@ -6,7 +6,7 @@ import { HiExternalLink } from "react-icons/hi";
 
 function Card({ title, github, imgUrl, link, stack, description, featured }) {
   return (
-    <div className="group relative overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-rose-300 flex flex-col">
+    <div className="group relative overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-rose-400 flex flex-col">
       <div className="w-full h-52 relative overflow-hidden">
         <a href={link} target="_blank" rel="noopener noreferrer">
           <Image
@@ -21,7 +21,7 @@ function Card({ title, github, imgUrl, link, stack, description, featured }) {
           </div>
         </a>
         {featured && (
-          <div className="absolute top-3 right-3 bg-rose-500 text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-md tracking-wide">
+          <div className="absolute top-3 right-3 bg-rose-400 text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-md tracking-wide">
             ★ Featured
           </div>
         )}
@@ -30,7 +30,7 @@ function Card({ title, github, imgUrl, link, stack, description, featured }) {
       <div className="p-4 flex flex-col gap-3 flex-1">
         <div className="flex items-start justify-between gap-2">
           <a href={link} target="_blank" rel="noopener noreferrer" className="group/title flex items-center gap-1">
-            <h3 className="font-bold text-gray-900 text-base group-hover/title:text-rose-500 transition-colors leading-snug">
+            <h3 className="font-bold text-gray-900 text-base group-hover/title:text-rose-400 transition-colors leading-snug">
               {title}
             </h3>
             <HiExternalLink className="text-gray-400 group-hover/title:text-rose-400 transition-colors flex-shrink-0 mt-0.5" />

@@ -7,70 +7,66 @@ import Link from "next/link";
 export default function Hero() {
   const colors = ["#D6ECB9", "#FFC196", "#A3E1E9", "#C4BEF1"];
   return (
-    <div className="flex flex-col md:flex-row justify-around items-center w-full py-8 gap-8">
-      <div className="flex flex-col gap-y-4">
-        <RoughNotationGroup show={true}>
-          {["Web Developer", "Front-End", "Innovation", "CatLover"].map(
-            (text, idx) => (
-              <RainbowHighlight key={idx} color={colors[idx]}>
-                <h1 className="font-roboto text-4xl mx-4 md:text-6xl xl:text-7xl font-bold text-gray-700">
-                  {text}
-                </h1>
-              </RainbowHighlight>
-            )
-          )}
-        </RoughNotationGroup>
-
-        <div className="flex flex-col gap-3 px-4 mt-2">
-          <p className="text-gray-400 font-mono text-sm tracking-wide">
-            4+ years building for the web
-          </p>
-          <div className="flex flex-wrap gap-3">
-            <Link
-              href="/projects"
-              className="bg-rose-400 text-white px-6 py-2.5 rounded-xl font-bold hover:bg-rose-500 transition-colors shadow-md shadow-rose-100"
-            >
-              View My Work
-            </Link>
-            <a
-              href="#contact"
-              className="border-2 border-rose-400 text-rose-500 px-6 py-2.5 rounded-xl font-bold hover:bg-rose-50 transition-colors"
-            >
-              Contact Me
-            </a>
-          </div>
+    <>
+      <div className="flex flex-col md:flex-row justify-around items-center w-full py-8 gap-8">
+        <div className="flex flex-col gap-y-4">
+          <RoughNotationGroup show={true}>
+            {["Web Developer", "Front-End", "Innovation", "CatLover"].map(
+              (text, idx) => (
+                <RainbowHighlight key={idx} color={colors[idx]}>
+                  <h1 className="font-roboto text-4xl mx-4 md:text-6xl xl:text-7xl font-bold text-gray-700">
+                    {text}
+                  </h1>
+                </RainbowHighlight>
+              )
+            )}
+          </RoughNotationGroup>
         </div>
-      </div>
 
-      <div>
-        <div className="relative w-3/4 mx-auto py-5 md:py-0">
-          <Image
-            src={myData.avatarUrl}
-            alt="avatar"
-            width={300}
-            height={300}
-            className="shadow rounded"
-          />
-          <div className="flex flex-row justify-between mt-4">
-            <div className="flex flex-row space-x-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-arrow-90deg-up"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"
-                />
-              </svg>
-              <p className="font-mono">That&#39;s me</p>
+        <div>
+          <div className="relative w-3/4 mx-auto py-5 md:py-0">
+            <Image
+              src={myData.avatarUrl}
+              alt="avatar"
+              width={300}
+              height={300}
+              className="shadow rounded"
+            />
+            <div className="flex flex-row justify-between mt-4">
+              <div className="flex flex-row space-x-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  className="bi bi-arrow-90deg-up"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"
+                  />
+                </svg>
+                <p className="font-mono">That&#39;s me info@isaramdev.com </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <div className="flex flex-wrap gap-3 px-4 mt-6 justify-center">
+        <Link
+          href="/projects"
+          className="bg-rose-200 text-gray-800 px-6 py-2.5 rounded-xl font-bold hover:bg-rose-400 transition-colors"
+        >
+          View My Work
+        </Link>
+        <Link
+          href="/contact"
+          className="border-2 border-rose-200 text-gray-600 px-6 py-2.5 rounded-xl font-bold hover:border-rose-400 hover:text-gray-800 transition-colors"
+        >
+          Contact Me
+        </Link>
+      </div>
+    </>
   );
 }

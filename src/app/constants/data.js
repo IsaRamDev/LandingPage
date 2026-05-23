@@ -138,17 +138,20 @@ const myData = {
   skills: {
     description:
       "This is my current tech stack, in which I feel most comfortable and where I'm trying to specialize right now.",
-    frontend: [
-      "React.js", "Next.js", "React Native", "Vite.js",
-      "TypeScript", "JavaScript", "HTML", "CSS",
+    languages: [
+      "JavaScript", "TypeScript", "HTML/CSS", "Python", "PHP", "C++",
+    ],
+    frameworks: [
+      "React.js", "Next.js", "React Server Components", "Angular",
+      "React Native", "Vite.js", "Express.js", "Storybook", "Makeswift",
     ],
     styling: [
       "Tailwind CSS", "SASS", "Bootstrap",
     ],
-    backendAndTools: [
-      "Node.js", "GraphQL", "MySQL", "AWS",
-      "Docker", "Git", "Vercel", "Figma",
-      "Shopify", "React Query",
+    tools: [
+      "Node.js", "MongoDB", "MySQL", "SQL Server", "AWS",
+      "Docker", "Git/GitHub", "Figma", "Vercel", "Turborepo",
+      "BigCommerce", "Shopify", "Postman", "Twilio", "Webflow",
     ],
   },
   about: {
@@ -167,11 +170,11 @@ const myData = {
       `He estado desarrollando páginas web desde que tenía 12 años. No sabía qué significaba ser desarrollador front-end en ese momento porque el término no se acuñaba en ese tiempo. `,
       `A medida que adquiría más experiencia, amplié mi conjunto de habilidades para incluir tecnologías modernas como React, Next JS, TypeScript, React-hook-form, Editor.js, Node.js, MySQL, Bootstrap y Tailwind, entre otras.`,
     ],
-    currentCompany: "NTT Data",
-    currentProject: "Tenaris NMS Order Dressing",
-    currentProjectUrl: "https://github.com/bedu-hq",
-    education: "Veracruz Technological Institute",
-    languages: "Spanish and English",
+    currentCompany: "BigCommerce",
+    currentProject: "Composable Storefront (Makeswift)",
+    currentProjectUrl: "https://www.bigcommerce.com/",
+    education: "Instituto Tecnológico de León, Guanajuato",
+    languages: "Spanish & English (C2)",
   },
   experience: [
     {
@@ -179,8 +182,8 @@ const myData = {
       icon: "/companies/BigCommerce.png",
       company: "BigCommerce ",
       location: "Remote",
-      startDate: "03/2024",
-      endDate: "08/2025",
+      startDate: "09/2025",
+      endDate: "Current",
       companyLink: "https://www.bigcommerce.com/",
       desc: [
         "Products: BigCommerce · Makeswift · Feedonomics · Commerce",

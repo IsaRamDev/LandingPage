@@ -2,27 +2,39 @@ import Image from "next/image";
 import myData from "../constants/data";
 
 const SKILL_COLORS = {
-  "React.js":    "bg-blue-500",
-  "Next.js":     "bg-gray-900",
-  "React Native":"bg-blue-600",
-  "Vite.js":     "bg-violet-500",
-  "TypeScript":  "bg-blue-600",
-  "JavaScript":  "bg-yellow-500",
-  "HTML":        "bg-orange-500",
-  "CSS":         "bg-blue-400",
-  "Tailwind CSS":"bg-teal-500",
-  "SASS":        "bg-pink-500",
-  "Bootstrap":   "bg-purple-600",
-  "Node.js":     "bg-green-600",
-  "GraphQL":     "bg-purple-500",
-  "MySQL":       "bg-blue-700",
-  "AWS":         "bg-orange-600",
-  "Docker":      "bg-sky-500",
-  "Git":         "bg-red-500",
-  "Vercel":      "bg-gray-700",
-  "Figma":       "bg-pink-400",
-  "Shopify":     "bg-green-500",
-  "React Query": "bg-pink-600",
+  "JavaScript":              "bg-yellow-500",
+  "TypeScript":              "bg-blue-600",
+  "HTML/CSS":                "bg-orange-500",
+  "Python":                  "bg-blue-500",
+  "PHP":                     "bg-indigo-500",
+  "C++":                     "bg-slate-600",
+  "React.js":                "bg-blue-500",
+  "Next.js":                 "bg-gray-900",
+  "React Server Components": "bg-blue-700",
+  "Angular":                 "bg-red-600",
+  "React Native":            "bg-blue-400",
+  "Vite.js":                 "bg-violet-500",
+  "Express.js":              "bg-gray-600",
+  "Storybook":               "bg-pink-500",
+  "Makeswift":               "bg-rose-500",
+  "Tailwind CSS":            "bg-teal-500",
+  "SASS":                    "bg-pink-400",
+  "Bootstrap":               "bg-purple-600",
+  "Node.js":                 "bg-green-600",
+  "MongoDB":                 "bg-green-700",
+  "MySQL":                   "bg-blue-700",
+  "SQL Server":              "bg-red-700",
+  "AWS":                     "bg-orange-600",
+  "Docker":                  "bg-sky-500",
+  "Git/GitHub":              "bg-red-500",
+  "Figma":                   "bg-pink-400",
+  "Vercel":                  "bg-gray-700",
+  "Turborepo":               "bg-gray-800",
+  "BigCommerce":             "bg-blue-800",
+  "Shopify":                 "bg-green-500",
+  "Postman":                 "bg-orange-500",
+  "Twilio":                  "bg-red-500",
+  "Webflow":                 "bg-blue-500",
 };
 
 function SkillChip({ name }) {
@@ -43,38 +55,35 @@ function About() {
         <h2 className="text-3xl md:text-4xl font-bold text-rose-400 mb-8">About Me</h2>
 
         <div className="grid grid-cols-3 gap-4 mb-10">
-          <div className="text-center p-4 bg-rose-50 rounded-2xl">
-            <span className="text-3xl font-black text-rose-500">4+</span>
-            <p className="text-gray-500 text-sm mt-1">Years Experience</p>
+          <div className="text-center p-4 rounded-2xl" style={{ backgroundColor: "#D6ECB9" }}>
+            <span className="text-3xl font-black text-gray-600">4+</span>
+            <p className="text-gray-600 text-sm mt-1">Years Experience</p>
           </div>
-          <div className="text-center p-4 bg-rose-50 rounded-2xl">
-            <span className="text-3xl font-black text-rose-500">12</span>
-            <p className="text-gray-500 text-sm mt-1">Projects Built</p>
+          <div className="text-center p-4 rounded-2xl" style={{ backgroundColor: "#FFC196" }}>
+            <span className="text-3xl font-black text-gray-600">12</span>
+            <p className="text-gray-600 text-sm mt-1">Projects Built</p>
           </div>
-          <div className="text-center p-4 bg-rose-50 rounded-2xl">
-            <span className="text-3xl font-black text-rose-500">6</span>
-            <p className="text-gray-500 text-sm mt-1">Companies</p>
+          <div className="text-center p-4 rounded-2xl" style={{ backgroundColor: "#C4BEF1" }}>
+            <span className="text-3xl font-black text-gray-600">M.S.</span>
+            <p className="text-gray-600 text-sm mt-1">Computer Science</p>
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start mb-12">
           <div className="space-y-4">
             <p className="text-gray-600 leading-relaxed">
-              I&apos;m a mid-level front-end developer with 4+ years of experience building
-              responsive, performant web apps and mobile applications for startups and
-              enterprise companies.
+              Front-End Developer with 4+ years of experience building production-grade
+              web applications across AI-driven platforms and enterprise ecommerce.
+              Proficient in React and Next.js, with a track record of delivering
+              composable UI architecture, performance optimization, and scalable
+              component systems in fast-paced, cross-functional teams.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              I&apos;ve worked with companies like <span className="font-semibold text-gray-800">BigCommerce</span>, <span className="font-semibold text-gray-800">Technologent</span>, and <span className="font-semibold text-gray-800">Scio Consulting</span> — contributing to products
-              used by thousands of users, from AI chat solutions to large-scale
-              e-commerce storefronts.
-            </p>
-            <p className="text-gray-600 leading-relaxed">
-              My stack centers on React, Next.js, TypeScript, and Tailwind CSS. I care
-              deeply about performance, clean code, and experiences that feel effortless.
+              Passionate about UI/UX — bridging the gap between clean, functional code
+              and intuitive user experiences that feel as good as they work.
             </p>
 
-            <div className="grid grid-cols-2 gap-4 pt-2 border-t border-gray-100 mt-4">
+            <div className="grid grid-cols-2 gap-4 pt-4 border-t border-gray-100">
               <div>
                 <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">Education</span>
                 <p className="text-gray-700 text-sm mt-0.5">{about.education}</p>
@@ -89,7 +98,7 @@ function About() {
               </div>
               <div>
                 <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">Based in</span>
-                <p className="text-gray-700 text-sm mt-0.5">México</p>
+                <p className="text-gray-700 text-sm mt-0.5">Moroleón, Gto., México</p>
               </div>
             </div>
           </div>
@@ -109,9 +118,15 @@ function About() {
           <h3 className="text-xl font-bold text-gray-900 mb-6">Tech Stack</h3>
           <div className="space-y-5">
             <div>
-              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Frontend</p>
+              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Languages</p>
               <div className="flex flex-wrap gap-2">
-                {skills.frontend.map((s) => <SkillChip key={s} name={s} />)}
+                {skills.languages.map((s) => <SkillChip key={s} name={s} />)}
+              </div>
+            </div>
+            <div>
+              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Frameworks & Libraries</p>
+              <div className="flex flex-wrap gap-2">
+                {skills.frameworks.map((s) => <SkillChip key={s} name={s} />)}
               </div>
             </div>
             <div>
@@ -121,9 +136,9 @@ function About() {
               </div>
             </div>
             <div>
-              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Backend & Tools</p>
+              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Databases & Tools</p>
               <div className="flex flex-wrap gap-2">
-                {skills.backendAndTools.map((s) => <SkillChip key={s} name={s} />)}
+                {skills.tools.map((s) => <SkillChip key={s} name={s} />)}
               </div>
             </div>
           </div>

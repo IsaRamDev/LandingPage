@@ -4,7 +4,7 @@ import ExperienceCard from "../components/ExperienceCard";
 
 function Project() {
   return (
-    <>
+    <div className="max-w-6xl mx-auto px-4 py-8 w-full">
       {myData.experience.map((exp, key) => (
         <ExperienceCard
           companyName={exp.company}
@@ -19,7 +19,7 @@ function Project() {
           key={key}
         />
       ))}
-    </>
+    </div>
   );
 }
 
