@@ -38,6 +38,13 @@ const myData = {
   ],
   projects: [
     {
+      title: "🛍️ HAVEN Storefront 🛍️",
+      link: "https://shop-storefront-seven.vercel.app/",
+      github: "https://github.com/IsaRamDev/shop-storefront",
+      imgUrl: "/portafolioIsa12.png",
+      description: "Fully functional e-commerce storefront with product filtering, keyword search, 5 sort options, a dynamic cart with free-shipping progress, and smooth loading skeletons — zero heavy dependencies.",
+      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+    },{
       title: "📈 Market Dashboard 📈",
       link: "https://market-dashboard-sage-seven.vercel.app/",
       github: "https://github.com/IsaRamDev/market-dashboard",
