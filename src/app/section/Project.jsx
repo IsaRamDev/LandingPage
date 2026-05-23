@@ -27,6 +27,7 @@ function Project() {
             github={proj.github}
             stack={proj.stack}
             description={proj.description}
+            featured={proj.featured}
             key={key}
           />
         ))}

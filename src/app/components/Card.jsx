@@ -4,7 +4,7 @@ import { getBackground, sortStack } from "../components/Badge";
 import { BsGithub } from "react-icons/bs";
 import { HiExternalLink } from "react-icons/hi";
 
-function Card({ title, github, imgUrl, link, stack, description }) {
+function Card({ title, github, imgUrl, link, stack, description, featured }) {
   return (
     <div className="group relative overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-rose-300 flex flex-col">
       <div className="w-full h-52 relative overflow-hidden">
@@ -20,6 +20,11 @@ function Card({ title, github, imgUrl, link, stack, description }) {
             <p className="text-white text-sm leading-relaxed">{description}</p>
           </div>
         </a>
+        {featured && (
+          <div className="absolute top-3 right-3 bg-rose-500 text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-md tracking-wide">
+            ★ Featured
+          </div>
+        )}
       </div>
 
       <div className="p-4 flex flex-col gap-3 flex-1">

@@ -2,12 +2,12 @@ import { RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "../components/RainbowHighlight";
 import myData from "../constants/data";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   const colors = ["#D6ECB9", "#FFC196", "#A3E1E9", "#C4BEF1"];
   return (
-    <div className="flex flex-col md:flex-row justify-around items-center w-full">
-      {/* Text container */}
+    <div className="flex flex-col md:flex-row justify-around items-center w-full py-8 gap-8">
       <div className="flex flex-col gap-y-4">
         <RoughNotationGroup show={true}>
           {["Web Developer", "Front-End", "Innovation", "CatLover"].map(
@@ -20,8 +20,28 @@ export default function Hero() {
             )
           )}
         </RoughNotationGroup>
+
+        <div className="flex flex-col gap-3 px-4 mt-2">
+          <p className="text-gray-400 font-mono text-sm tracking-wide">
+            4+ years building for the web
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/projects"
+              className="bg-rose-400 text-white px-6 py-2.5 rounded-xl font-bold hover:bg-rose-500 transition-colors shadow-md shadow-rose-100"
+            >
+              View My Work
+            </Link>
+            <a
+              href="#contact"
+              className="border-2 border-rose-400 text-rose-500 px-6 py-2.5 rounded-xl font-bold hover:bg-rose-50 transition-colors"
+            >
+              Contact Me
+            </a>
+          </div>
+        </div>
       </div>
-      {/* Image container */}
+
       <div>
         <div className="relative w-3/4 mx-auto py-5 md:py-0">
           <Image

@@ -38,19 +38,21 @@ const myData = {
   ],
   projects: [
     {
-      title: "🛍️ HAVEN Storefront 🛍️",
+      title: "HAVEN Storefront",
       link: "https://shop-storefront-seven.vercel.app/",
       github: "https://github.com/IsaRamDev/shop-storefront",
       imgUrl: "/portafolioIsa12.png",
       description: "Fully functional e-commerce storefront with product filtering, keyword search, 5 sort options, a dynamic cart with free-shipping progress, and smooth loading skeletons — zero heavy dependencies.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      featured: true,
     },{
-      title: "📈 Market Dashboard 📈",
+      title: "Market Dashboard",
       link: "https://market-dashboard-sage-seven.vercel.app/",
       github: "https://github.com/IsaRamDev/market-dashboard",
       imgUrl: "/portafolioIsa11.png",
       description: "Real-time crypto market tracker with live prices, 7-day interactive charts, and a searchable coin table. Auto-refreshes every 60 seconds via CoinGecko API — zero auth required.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js", "Recharts"],
+      featured: true,
     },{
       title: "Kaix Landing Page",
       link: "https://kaix-landing-page.vercel.app/sacvsa",
@@ -58,13 +60,15 @@ const myData = {
       imgUrl: "/portafolioIsa10.png",
       description: "High-converting marketing landing page for KAIX, built with smooth scroll animations, bold visual hierarchy, and a fully responsive layout optimized for lead generation.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      featured: true,
     },{
-      title: "Luzete",
+      title: "Luzete Fashion",
       link: "https://www.luzetefashion.com/",
       github: "https://github.com/IsaRamDev/luzete-fashion",
       imgUrl: "/portafolioIsa09.png",
       description: "Full fashion e-commerce site for Luzete, featuring a product catalog, elegant UI, and seamless mobile experience — live and serving real customers.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      featured: true,
     },{
       title: "Digital Circuit Simulator",
       link: "https://digital-circuit-simulator-pi.vercel.app/",
@@ -72,113 +76,79 @@ const myData = {
       imgUrl: "/portafolioIsa08.png",
       description: "Browser-based tool to design and simulate digital logic circuits in real time. Drag-and-drop gates, connect wires, and watch outputs update instantly — no installation needed.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      featured: false,
     },{
-      title: "Landing Page",
+      title: "Dev Portfolio",
       link: "https://landing-page-lac-five.vercel.app/",
       github: "https://github.com/IsaRamDev/LandingPage",
       imgUrl: "/portafolioIsa07.png",
       description: "Personal developer portfolio showcasing projects, skills, and experience. Built with Next.js and deployed on Vercel — the very site you're reading right now.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js", "Vercel"],
+      featured: false,
     },{
-      title: "🤖 Robocoons 🤖",
+      title: "Robocoons",
       link: "https://robocoons-lilac.vercel.app/",
       github: "https://github.com/IsaRamDev/Robocoons",
       imgUrl: "/portafolioIsa06.png",
       description: "Landing page for a teenage robotics team representing Mexico in international competitions. Built to inspire, recruit sponsors, and put young engineers on the map.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      featured: false,
     },{
-      title: "🎮🃏🐳 Memory Game 🎮🃏🐳",
+      title: "Memory Game",
       link: "https://isaramdev-memory-game.vercel.app/",
       github: "https://github.com/IsaRamDev/isaramdev-memory-game",
       imgUrl: "/portafolioIsa05.png",
       description: "Interactive card-matching memory game with animated flips, win detection, and move counter. A clean example of state management and CSS transitions in React.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      featured: false,
     },{
-      title: "🎥🍿🎬 Movies Review 🎥🍿🎬",
+      title: "Movies Review",
       link: "https://isaramdev-movies-review.vercel.app/",
       github: "https://github.com/IsaRamDev/isaramdev-movies-review",
       imgUrl: "/portafolioIsa04.png",
       description: "Movie discovery app powered by a public API. Browse, search, and explore films with rich metadata, posters, and ratings — all rendered in a slick responsive UI.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      featured: false,
     },{
-      title: "🌤🌧❄🌩 Weather News 🌤🌧❄🌩",
+      title: "Weather App",
       link: "https://isaramdev-weather-search.vercel.app/",
       github: "https://github.com/IsaRamDev/WeatherSearch",
       imgUrl: "/portafolioIsa03.png",
       description: "Real-time weather search app showing current conditions, temperature, and forecasts for any city worldwide. Clean design with live API data and dynamic weather icons.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      featured: false,
     },{
-      title: "💀 La Catrina MX 💀",
+      title: "La Catrina MX",
       link: "https://la-catrina-mx.vercel.app/",
       github: "https://github.com/IsaRamDev/LaCatrinaMX",
       imgUrl: "/portafolioIsa02.png",
       description: "Cultural Mexican website celebrating Día de Muertos with rich visuals, vibrant colors, and immersive storytelling — a tribute to tradition built with modern web tech.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Next.js"],
+      featured: false,
     },{
-      title: "📋 Daily To Do List 📋",
+      title: "Daily To-Do List",
       link: "https://to-do-list-react-isaramdev.vercel.app/",
       github: "https://github.com/IsaRamDev/ToDoListReact",
       imgUrl: "/portafolioIsa01.jpg",
       description: "Clean and minimal task manager with add, complete, and delete functionality. One of the first React projects — proof that clean UI and solid state logic go hand in hand.",
       stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Next.js"],
+      featured: false,
     },
   ],
   skills: {
     description:
       "This is my current tech stack, in which I feel most comfortable and where I'm trying to specialize right now.",
-    languages: [
-      {
-        name: "HTML",
-        icon: "/icons/html.ico",
-      },
-      {
-        name: "CSS",
-        icon: "/icons/css.ico",
-      },
-      {
-        name: "Javascript",
-        icon: "/icons/javascript.ico",
-      },
+    frontend: [
+      "React.js", "Next.js", "React Native", "Vite.js",
+      "TypeScript", "JavaScript", "HTML", "CSS",
     ],
-    libraries: [
-      {
-        name: "Node.js",
-        icon: "/icons/nodejs.ico",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: "/icons/tailwind.ico",
-      },
-      {
-        name: "React Query",
-        icon: "/icons/react-query.ico",
-      },
-      {
-        name: "GraphQL",
-        icon: "/icons/graphql.ico",
-      },
-      {
-        name: "Typescript",
-        icon: "/icons/typescript.ico",
-      },
-      {
-        name: "Bootstrap",
-        icon: "/icons/bootstrap.ico",
-      },
+    styling: [
+      "Tailwind CSS", "SASS", "Bootstrap",
     ],
-    frameworks: [
-      {
-        name: "React.js",
-        icon: "/icons/react.ico",
-      },
-      {
-        name: "Next.js",
-        icon: "/icons/nextjs.ico",
-      },
-      {
-        name: "Flask",
-        icon: "/icons/flask.ico",
-      },
+    backendAndTools: [
+      "Node.js", "GraphQL", "MySQL", "AWS",
+      "Docker", "Git", "Vercel", "Figma",
+      "Shopify", "React Query",
     ],
   },
   about: {
