@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Chip from "../components/Chip";
-import { getBackground } from "../components/Badge";
+import { getBackground, sortStack } from "../components/Badge";
 import { BsGithub } from "react-icons/bs";
 import { HiExternalLink } from "react-icons/hi";
 
@@ -44,8 +44,18 @@ function Card({ title, github, imgUrl, link, stack, description }) {
         <p className="text-gray-500 text-sm leading-relaxed md:hidden">{description}</p>
 
         <div className="flex flex-wrap gap-2 mt-auto pt-1">
-          {stack.map((item, index) => (
-            <Chip key={index} background={getBackground(item)}>
+          {sortStack(stack).map((item, index) => (
+            <Chip
+              key={index}
+              background={getBackground(item)}
+              style={
+                index === 0
+                  ? { fontSize: "0.8rem", padding: "0.35rem 0.75rem", boxShadow: "0 0 0 2px white, 0 0 0 3.5px currentColor" }
+                  : index <= 2
+                  ? { fontSize: "0.72rem", opacity: 0.9 }
+                  : { fontSize: "0.65rem", opacity: 0.65 }
+              }
+            >
               {item}
             </Chip>
           ))}
