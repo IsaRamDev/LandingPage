@@ -38,6 +38,14 @@ const myData = {
   ],
   projects: [
     {
+      title: "Harbour UI",
+      link: "https://design-system-murex-kappa.vercel.app/",
+      github: "https://github.com/IsaRamDev/design-system",
+      imgUrl: "/portafolioIsa13.png",
+      description: "Custom component design system with interactive documentation. Includes Button, Input, Badge, Card, Modal, Toggle, and Avatar components — each with live previews, status variants, and copy-ready JSX snippets.",
+      stack: ["TypeScript", "React", "Next.js", "Tailwind", "Storybook"],
+      featured: true,
+    },{
       title: "HAVEN Storefront",
       link: "https://shop-storefront-seven.vercel.app/",
       github: "https://github.com/IsaRamDev/shop-storefront",

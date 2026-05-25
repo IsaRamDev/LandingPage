@@ -3,7 +3,9 @@ export const getBackground = (type) => {
     case "React":       return "bg-blue-500";
     case "Next.js":     return "bg-gray-900";
     case "Vite.js":     return "bg-violet-500";
+    case "TypeScript":
     case "Typescript":  return "bg-blue-600";
+    case "Storybook":   return "bg-pink-500";
     case "Tailwind":    return "bg-teal-500";
     case "Javascript":  return "bg-yellow-500";
     case "HTML/CSS":    return "bg-orange-500";
@@ -20,9 +22,9 @@ export const getBackground = (type) => {
 };
 
 export const STACK_PRIORITY = [
-  "React", "Next.js", "Vite.js", "Typescript",
+  "React", "Next.js", "Vite.js", "TypeScript", "Typescript",
   "Tailwind", "Javascript", "HTML/CSS", "Recharts",
-  "GraphQL", "ReactQuery", "Redux", "Vercel", "API",
+  "GraphQL", "ReactQuery", "Redux", "Vercel", "API", "Storybook",
 ];
 
 export const sortStack = (stack) =>
