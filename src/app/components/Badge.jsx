@@ -17,6 +17,7 @@ export const getBackground = (type) => {
     case "Redux":       return "bg-indigo-700";
     case "Astro":       return "bg-blue-800";
     case "Vercel":      return "bg-gray-700";
+    case "AI SDK":      return "bg-amber-500";
     default:            return "bg-slate-500";
   }
 };

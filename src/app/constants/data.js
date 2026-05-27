@@ -38,6 +38,14 @@ const myData = {
   ],
   projects: [
     {
+      title: "Lumos AI Chat",
+      link: "https://ai-chat-gkd7otv21-maria-isabel-ramirezs-projects.vercel.app/chat",
+      github: "https://github.com/IsaRamDev/ai-chat",
+      imgUrl: "/portafolioIsa14.png",
+      description: "Multi-model AI chat interface supporting Llama, DeepSeek, Qwen, Gemma, Mistral, and Compound Beta. Built with a clean dark UI, conversation history, and real-time streaming — all in one unified chat experience.",
+      stack: ["TypeScript", "React", "Next.js", "Tailwind", "AI SDK"],
+      featured: true,
+    },{
       title: "Harbour UI",
       link: "https://design-system-murex-kappa.vercel.app/",
       github: "https://github.com/IsaRamDev/design-system",
