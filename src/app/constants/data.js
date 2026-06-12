@@ -38,6 +38,22 @@ const myData = {
   ],
   projects: [
     {
+      title: "URL Shortener",
+      link: "https://url-shortener-indol-eight.vercel.app/",
+      github: "https://github.com/IsaRamDev/url-shortener",
+      imgUrl: "/portafolioIsa16.png",
+      description: "Fast and minimal URL shortener that converts long links into clean, shareable short URLs. Instant redirect handling with a simple, distraction-free interface.",
+      stack: ["TypeScript", "React", "Next.js", "Tailwind"],
+      featured: true,
+    },{
+      title: "Markdown Editor",
+      link: "https://markdown-editor-mauve-one.vercel.app/",
+      github: "https://github.com/IsaRamDev/markdown-editor",
+      imgUrl: "/portafolioIsa15.png",
+      description: "Live Markdown editor with real-time preview side by side. Write in raw Markdown on the left, see the rendered output on the right — perfect for quick notes and formatted content.",
+      stack: ["TypeScript", "React", "Next.js", "Tailwind"],
+      featured: true,
+    },{
       title: "Lumos AI Chat",
       link: "https://ai-chat-gkd7otv21-maria-isabel-ramirezs-projects.vercel.app/chat",
       github: "https://github.com/IsaRamDev/ai-chat",
