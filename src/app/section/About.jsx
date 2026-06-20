@@ -79,10 +79,10 @@ function About() {
               and at Technologent integrating AI-driven chat solutions. 
               I specialize in React, Next.js, and Tailwind, and I care deeply about the 
               intersection of clean code and great user experience. 
-              Currently open to new opportunities — remote preferred.
+              Currently open to new opportunities —&gt; remote preferred.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Passionate about UI/UX — bridging the gap between clean, functional code
+              Passionate about UI/UX, bridging the gap between clean, functional code
               and intuitive user experiences that feel as good as they work.
             </p>
 
