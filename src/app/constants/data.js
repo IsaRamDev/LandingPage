@@ -1,7 +1,7 @@
 const myData = {
   githubUsername: "isabelramirezdev",
   name: "Isabel Ramirez",
-  designation: "Full stack Developer",
+  designation: "Frontend Developer · React & Next.js · UI/UX · ex-BigCommerce",
   avatarUrl: "/avatar.jpeg",
   email: "info@isaramdev.com",
   navmenu: [

@@ -72,11 +72,14 @@ function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start mb-12">
           <div className="space-y-4">
             <p className="text-gray-600 leading-relaxed">
-              Front-End Developer with 4+ years of experience building production-grade
-              web applications across AI-driven platforms and enterprise ecommerce.
-              Proficient in React and Next.js, with a track record of delivering
-              composable UI architecture, performance optimization, and scalable
-              component systems in fast-paced, cross-functional teams.
+              I&apos;m a Frontend Developer with 4+ years of experience building scalable, 
+              high-performance web applications. 
+              I&apos;ve worked at BigCommerce contributing to composable storefronts used by 
+              enterprise ecommerce brands, 
+              and at Technologent integrating AI-driven chat solutions. 
+              I specialize in React, Next.js, and Tailwind, and I care deeply about the 
+              intersection of clean code and great user experience. 
+              Currently open to new opportunities — remote preferred.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Passionate about UI/UX — bridging the gap between clean, functional code
