@@ -7,9 +7,9 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <div className="bg-white mt-auto">
-      <div className="max-w-6xl mx-auto px-4 py-3 md:py-6">
+      <div className="mx-auto px-4 py-3 md:py-6">
         <div className="h-0.5 w-full bg-rose-400"></div>
-        <div className="flex flex-col text-black space-y-4 md:space-y-0 md:flex-row justify-around items-center mt-8 font-bold">
+        <div className="flex flex-col mx-auto max-w-6xl text-black space-y-4 md:space-y-0 md:flex-row justify-around items-center mt-8 font-bold">
           <span>{year} &copy; Isabel Ramirez. All Rights Reserved.</span>
           <span>
             Developed by
