@@ -42,7 +42,7 @@ const myData = {
       link: "https://music-player-black-omega.vercel.app/",
       github: "https://github.com/IsaRamDev/music-player",
       imgUrl: "/portafolioIsa17.png",
-      description: "Sleek music player with playback controls, track progress, and a clean minimal UI. Supports play, pause, skip, and shuffle — built for smooth listening with a focus on interface simplicity.",
+      description: "Sleek music player with playback controls, track progress, and a clean minimal UI. Supports play, pause, skip, and shuffle — built for smooth listening with a focus on interface simplicity. All tracks are copyright-free.",
       stack: ["TypeScript", "React", "Next.js", "Tailwind"],
       featured: true,
     },{
