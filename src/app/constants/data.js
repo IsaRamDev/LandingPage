@@ -38,6 +38,14 @@ const myData = {
   ],
   projects: [
     {
+      title: "Job Tracker",
+      link: "https://job-tracker-seven-gray.vercel.app/tracker",
+      github: "https://github.com/IsaRamDev/Job-Tracker",
+      imgUrl: "/portafolioIsa18.png",
+      description: "Kanban-style job application tracker with drag-and-drop cards across status columns (Wishlist → Applied → Screening → Interview → Offer / Rejected). Includes a list view, stats dashboard, search, priority flags, and auto-save to localStorage — nothing lost on refresh.",
+      stack: ["TypeScript", "React", "Next.js", "Tailwind"],
+      featured: true,
+    },{
       title: "Music Player",
       link: "https://music-player-black-omega.vercel.app/",
       github: "https://github.com/IsaRamDev/music-player",
