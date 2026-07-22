@@ -31,7 +31,7 @@ function Card({ title, github, imgUrl, link, stack, description, featured, icon 
         <div className="flex items-start justify-between gap-2">
           <a href={link} target="_blank" rel="noopener noreferrer" className="group/title flex items-center gap-1">
             <h3 className="font-bold text-gray-900 text-base group-hover/title:text-rose-400 transition-colors leading-snug flex items-center gap-1.5">
-              {icon && <span className="text-base">{icon}</span>}{title}{icon && <span className="text-base">{icon}</span>}
+              {icon && <span className="text-base">{icon}</span>}{title}
             </h3>
             <HiExternalLink className="text-gray-400 group-hover/title:text-rose-400 transition-colors flex-shrink-0 mt-0.5" />
           </a>
