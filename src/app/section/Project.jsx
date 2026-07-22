@@ -28,6 +28,7 @@ function Project() {
             stack={proj.stack}
             description={proj.description}
             featured={proj.featured}
+            icon={proj.icon}
             key={key}
           />
         ))}
