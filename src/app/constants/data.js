@@ -41,10 +41,10 @@ const myData = {
       title: "CVS Visualizer",
       link: "https://csv-visualizer-ten.vercel.app",
       github: "https://github.com/IsaRamDev/CSV-Visualizer",
-      imgUrl: "/portafolioIsa18.png",
-      icon: "💼",
+      imgUrl: "/portafolioIsa19.png",
+      icon: "📊",
       description: "Upload any CSV and get instant interactive charts. Built with React, D3.js, and PapaParse — four chart types, auto column type detection, summary statistics, and SVG export.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind"],
+      stack: ["TypeScript", "React", "Next.js", "Tailwind", "D3.js", "PapaParse"],
       featured: true,
     },{
       title: "Job Tracker",
