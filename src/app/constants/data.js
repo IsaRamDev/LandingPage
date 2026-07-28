@@ -38,6 +38,15 @@ const myData = {
   ],
   projects: [
     {
+      title: "CVS Visualizer",
+      link: "https://csv-visualizer-ten.vercel.app",
+      github: "https://github.com/IsaRamDev/CSV-Visualizer",
+      imgUrl: "/portafolioIsa18.png",
+      icon: "💼",
+      description: "Upload any CSV and get instant interactive charts. Built with React, D3.js, and PapaParse — four chart types, auto column type detection, summary statistics, and SVG export.",
+      stack: ["TypeScript", "React", "Next.js", "Tailwind"],
+      featured: true,
+    },{
       title: "Job Tracker",
       link: "https://job-tracker-seven-gray.vercel.app/tracker",
       github: "https://github.com/IsaRamDev/Job-Tracker",
