@@ -38,6 +38,15 @@ const myData = {
   ],
   projects: [
     {
+      title: "Personal Finance Tracker",
+      link: "https://personal-finance-gilt-omega.vercel.app/dashboard",
+      github: "https://github.com/IsaRamDev/personal-finance",
+      imgUrl: "/portafolioIsa20.png",
+      icon: "💰",
+      description: "A personal finance dashboard with income/expense tracking, budget limits per category, and multi-chart analytics — built with Next.js 14 App Router and Recharts.",
+      stack: ["TypeScript", "React", "Next.js", "Tailwind", "Recharts"],
+      featured: true,
+    },{
       title: "CVS Visualizer",
       link: "https://csv-visualizer-ten.vercel.app",
       github: "https://github.com/IsaRamDev/CSV-Visualizer",
