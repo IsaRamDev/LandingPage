@@ -38,6 +38,15 @@ const myData = {
   ],
   projects: [
     {
+      title: "Image Compressor",
+      link: "https://image-compressor-six-ruby.vercel.app/",
+      github: "https://github.com/IsaRamDev/image-compressor",
+      imgUrl: "/portafolioIsa21.png",
+      icon: "�️",
+      description: "A browser-based image compressor with a drag-to-compare before/after slider — built with the Canvas API and zero external image libraries.",
+      stack: ["TypeScript", "React", "Next.js", "Tailwind", "Canvas API"],
+      featured: true,
+    },{
       title: "Personal Finance Tracker",
       link: "https://personal-finance-gilt-omega.vercel.app/dashboard",
       github: "https://github.com/IsaRamDev/personal-finance",
