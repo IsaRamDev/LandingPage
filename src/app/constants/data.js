@@ -38,6 +38,15 @@ const myData = {
   ],
   projects: [
     {
+      title: "Collab notes",
+      link: "https://collab-notes-lyart.vercel.app/notes",
+      github: "https://github.com/IsaRamDev/collab-notes",
+      imgUrl: "/portafolioIsa22.png",
+      icon: "📝",
+      description: "A fast notes app built with Remix — demonstrating the loader/action pattern, nested routes, and optimistic UI via useFetcher.",
+      stack: ["TypeScript", "React", "vite", "Tailwind", "Remix"],
+      featured: true,
+    },{
       title: "Image Compressor",
       link: "https://image-compressor-six-ruby.vercel.app/",
       github: "https://github.com/IsaRamDev/image-compressor",
