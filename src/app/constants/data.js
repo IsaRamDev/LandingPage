@@ -44,7 +44,7 @@ const myData = {
       imgUrl: "/portafolioIsa22.png",
       icon: "📝",
       description: "A fast notes app built with Remix — demonstrating the loader/action pattern, nested routes, and optimistic UI via useFetcher.",
-      stack: ["TypeScript", "React", "vite", "Tailwind", "Remix"],
+      stack: ["JavaScript", "React", "Remix", "Tailwind", "Vite.js"],
       featured: true,
     },{
       title: "Image Compressor",
@@ -53,7 +53,7 @@ const myData = {
       imgUrl: "/portafolioIsa21.png",
       icon: "🗜️",
       description: "A browser-based image compressor with a drag-to-compare before/after slider — built with the Canvas API and zero external image libraries.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind", "Canvas API"],
+      stack: ["TypeScript", "React", "Vite.js", "Tailwind", "Canvas API"],
       featured: true,
     },{
       title: "Personal Finance Tracker",
@@ -71,7 +71,7 @@ const myData = {
       imgUrl: "/portafolioIsa19.png",
       icon: "📊",
       description: "Upload any CSV and get instant interactive charts. Built with React, D3.js, and PapaParse — four chart types, auto column type detection, summary statistics, and SVG export.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind", "D3.js", "PapaParse"],
+      stack: ["TypeScript", "React", "Vite.js", "Tailwind", "D3.js", "PapaParse"],
       featured: true,
     },{
       title: "Job Tracker",
@@ -89,7 +89,7 @@ const myData = {
       imgUrl: "/portafolioIsa17.png",
       icon: "🎧",
       description: "Wavelength is a sleek music player with playback controls, track progress, and a clean minimal UI. Supports play, pause, skip, and shuffle — built for smooth listening with a focus on interface simplicity. All tracks are copyright-free.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind"],
+      stack: ["TypeScript", "React", "Vite.js", "Tailwind","Web Audio API"],
       featured: true,
     },{
       title: "URL Shortener",
@@ -98,7 +98,7 @@ const myData = {
       imgUrl: "/portafolioIsa15.png",
       icon: "🔗",
       description: "Fast and minimal URL shortener that converts long links into clean, shareable short URLs. Instant redirect handling with a simple, distraction-free interface.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind"],
+      stack: ["TypeScript", "React", "Remix", "Vite.js", "Tailwind"],
       featured: true,
     },{
       title: "Markdown Editor",
@@ -107,7 +107,7 @@ const myData = {
       imgUrl: "/portafolioIsa16.png",
       icon: "✏️",
       description: "Live Markdown editor with real-time preview side by side. Write in raw Markdown on the left, see the rendered output on the right — perfect for quick notes and formatted content.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind"],
+      stack: ["TypeScript", "React", "Vite.js", "Tailwind", "react-markdown", "react-syntax-highlighter"],
       featured: true,
     },{
       title: "Lumos AI Chat",
@@ -116,7 +116,7 @@ const myData = {
       imgUrl: "/portafolioIsa14.png",
       icon: "🤖",
       description: "Multi-model AI chat interface supporting Llama, DeepSeek, Qwen, Gemma, Mistral, and Compound Beta. Built with a clean dark UI, conversation history, and real-time streaming — all in one unified chat experience.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind", "AI SDK"],
+      stack: ["TypeScript", "React", "Next.js", "Tailwind", "Groq API"],
       featured: true,
     },{
       title: "Harbour UI",
