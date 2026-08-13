@@ -44,7 +44,7 @@ const myData = {
       imgUrl: "/portafolioIsa22.png",
       icon: "📝",
       description: "A fast notes app built with Remix — demonstrating the loader/action pattern, nested routes, and optimistic UI via useFetcher.",
-      stack: ["JavaScript", "React", "Remix", "Tailwind", "Vite.js"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Remix", "Tailwind", "Vite.js"],
       featured: true,
     },{
       title: "Image Compressor",
@@ -53,7 +53,7 @@ const myData = {
       imgUrl: "/portafolioIsa21.png",
       icon: "🗜️",
       description: "A browser-based image compressor with a drag-to-compare before/after slider — built with the Canvas API and zero external image libraries.",
-      stack: ["TypeScript", "React", "Vite.js", "Tailwind", "Canvas API"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Vite.js", "Tailwind", "Canvas API"],
       featured: true,
     },{
       title: "Personal Finance Tracker",
@@ -62,7 +62,7 @@ const myData = {
       imgUrl: "/portafolioIsa20.png",
       icon: "💰",
       description: "A personal finance dashboard with income/expense tracking, budget limits per category, and multi-chart analytics — built with Next.js 14 App Router and Recharts.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind", "Recharts"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Next.js", "Tailwind", "Recharts"],
       featured: true,
     },{
       title: "CVS Visualizer",
@@ -71,7 +71,7 @@ const myData = {
       imgUrl: "/portafolioIsa19.png",
       icon: "📊",
       description: "Upload any CSV and get instant interactive charts. Built with React, D3.js, and PapaParse — four chart types, auto column type detection, summary statistics, and SVG export.",
-      stack: ["TypeScript", "React", "Vite.js", "Tailwind", "D3.js", "PapaParse"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Vite.js", "Tailwind", "D3.js", "PapaParse"],
       featured: true,
     },{
       title: "Job Tracker",
@@ -80,7 +80,7 @@ const myData = {
       imgUrl: "/portafolioIsa18.png",
       icon: "💼",
       description: "Kanban-style job application tracker with drag-and-drop cards across status columns (Wishlist → Applied → Screening → Interview → Offer / Rejected). Includes a list view, stats dashboard, search, priority flags, and auto-save to localStorage — nothing lost on refresh.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Next.js", "Tailwind"],
       featured: true,
     },{
       title: "Music Player",
@@ -89,7 +89,7 @@ const myData = {
       imgUrl: "/portafolioIsa17.png",
       icon: "🎧",
       description: "Wavelength is a sleek music player with playback controls, track progress, and a clean minimal UI. Supports play, pause, skip, and shuffle — built for smooth listening with a focus on interface simplicity. All tracks are copyright-free.",
-      stack: ["TypeScript", "React", "Vite.js", "Tailwind","Web Audio API"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Vite.js", "Tailwind","Web Audio API"],
       featured: true,
     },{
       title: "URL Shortener",
@@ -98,7 +98,7 @@ const myData = {
       imgUrl: "/portafolioIsa15.png",
       icon: "🔗",
       description: "Fast and minimal URL shortener that converts long links into clean, shareable short URLs. Instant redirect handling with a simple, distraction-free interface.",
-      stack: ["TypeScript", "React", "Remix", "Vite.js", "Tailwind"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Remix", "Vite.js", "Tailwind"],
       featured: true,
     },{
       title: "Markdown Editor",
@@ -107,7 +107,7 @@ const myData = {
       imgUrl: "/portafolioIsa16.png",
       icon: "✏️",
       description: "Live Markdown editor with real-time preview side by side. Write in raw Markdown on the left, see the rendered output on the right — perfect for quick notes and formatted content.",
-      stack: ["TypeScript", "React", "Vite.js", "Tailwind", "react-markdown", "react-syntax-highlighter"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Vite.js", "Tailwind", "react-markdown", "react-syntax-highlighter"],
       featured: true,
     },{
       title: "Lumos AI Chat",
@@ -116,7 +116,7 @@ const myData = {
       imgUrl: "/portafolioIsa14.png",
       icon: "🤖",
       description: "Multi-model AI chat interface supporting Llama, DeepSeek, Qwen, Gemma, Mistral, and Compound Beta. Built with a clean dark UI, conversation history, and real-time streaming — all in one unified chat experience.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind", "Groq API"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Next.js", "Tailwind", "Groq API"],
       featured: true,
     },{
       title: "Harbour UI",
@@ -125,7 +125,7 @@ const myData = {
       imgUrl: "/portafolioIsa13.png",
       icon: "🧩",
       description: "Custom component design system with interactive documentation. Includes Button, Input, Badge, Card, Modal, Toggle, and Avatar components — each with live previews, status variants, and copy-ready JSX snippets.",
-      stack: ["TypeScript", "React", "Next.js", "Tailwind", "Storybook"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Next.js", "Tailwind", "Storybook"],
       featured: true,
     },{
       title: "HAVEN Storefront",
@@ -134,7 +134,7 @@ const myData = {
       imgUrl: "/portafolioIsa12.png",
       icon: "🛍️",
       description: "Fully functional e-commerce storefront with product filtering, keyword search, 5 sort options, a dynamic cart with free-shipping progress, and smooth loading skeletons — zero heavy dependencies.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      stack: ["JavaScript", "HTML/CSS", "React", "Vite.js"],
       featured: true,
     },{
       title: "Market Dashboard",
