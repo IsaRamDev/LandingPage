@@ -38,6 +38,15 @@ const myData = {
   ],
   projects: [
     {
+      title: "Quiz/Trivia App",
+      link: "https://quiz-trivia-app-theta.vercel.app/",
+      github: "https://github.com/IsaRamDev/quiz-trivia-app",
+      imgUrl: "/portafolioIsa23.png",
+      icon: "🧠",
+      description: "A trivia quiz app with a countdown timer, animated answer feedback, category picker, and a localStorage leaderboard — built with Next.js 14 App Router.",
+      stack: ["JavaScript", "HTML/CSS", "React", "Tailwind", "Next.js", "Open Trivia API"],
+      featured: true,
+    },{
       title: "Collab notes",
       link: "https://collab-notes-lyart.vercel.app/notes",
       github: "https://github.com/IsaRamDev/collab-notes",
