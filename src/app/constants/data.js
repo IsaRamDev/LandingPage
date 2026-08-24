@@ -38,6 +38,15 @@ const myData = {
   ],
   projects: [
     {
+      title: "Github Explorer",
+      link: "https://github-explorer-qgqoliy21-maria-isabel-ramirezs-projects.vercel.app/",
+      github: "https://github.com/IsaRamDev/github-explorer",
+      imgUrl: "/portafolioIsa24.png",
+      icon: "🔍",
+      description: "Search any GitHub username and get a full breakdown of their profile, repositories, language stack, and 30-day push activity — built with React + Vite and the GitHub REST API.",
+      stack: ["JavaScript", "HTML/CSS", "React", "Tailwind", "Vite.js", "GitHub REST API"],
+      featured: true,
+    },{
       title: "Quiz/Trivia App",
       link: "https://quiz-trivia-app-theta.vercel.app/",
       github: "https://github.com/IsaRamDev/quiz-trivia-app",
