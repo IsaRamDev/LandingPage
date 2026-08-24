@@ -7,7 +7,7 @@ export const getBackground = (type) => {
     case "Typescript":  return "bg-blue-600";
     case "Storybook":   return "bg-pink-500";
     case "Tailwind":    return "bg-teal-500";
-    case "Javascript":  return "bg-yellow-500";
+    case "JavaScript":  return "bg-yellow-500";
     case "HTML/CSS":    return "bg-orange-500";
     case "GraphQL":     return "bg-purple-600";
     case "ReactQuery":  return "bg-pink-500";
@@ -16,7 +16,7 @@ export const getBackground = (type) => {
     case "Bootstrap":   return "bg-purple-600";
     case "Redux":       return "bg-indigo-700";
     case "Astro":       return "bg-blue-800";
-    case "Vercel":      return "bg-gray-700";
+    case "Vercel":      return "bg-gray-900";
     case "AI SDK":      return "bg-amber-500";
     default:            return "bg-slate-500";
   }

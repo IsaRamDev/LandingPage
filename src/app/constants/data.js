@@ -170,7 +170,7 @@ const myData = {
       imgUrl: "/portafolioIsa10.png",
       icon: "🚀",
       description: "High-converting marketing landing page for KAIX, built with smooth scroll animations, bold visual hierarchy, and a fully responsive layout optimized for lead generation.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      stack: ["Tailwind", "HTML/CSS", "JavaScript", "React", "Vite.js"],
       featured: true,
     },{
       title: "Luzete Fashion",
@@ -179,7 +179,7 @@ const myData = {
       imgUrl: "/portafolioIsa09.png",
       icon: "👗",
       description: "Full fashion e-commerce site for Luzete, featuring a product catalog, elegant UI, and seamless mobile experience — live and serving real customers.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      stack: ["Tailwind", "HTML/CSS", "JavaScript", "React", "Vite.js"],
       featured: true,
     },{
       title: "Digital Circuit Simulator",
@@ -188,7 +188,7 @@ const myData = {
       imgUrl: "/portafolioIsa08.png",
       icon: "⚡",
       description: "Browser-based tool to design and simulate digital logic circuits in real time. Drag-and-drop gates, connect wires, and watch outputs update instantly — no installation needed.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      stack: ["Tailwind", "HTML/CSS", "JavaScript", "React", "Vite.js"],
       featured: false,
     },{
       title: "Dev Portfolio",
@@ -197,7 +197,7 @@ const myData = {
       imgUrl: "/portafolioIsa07.png",
       icon: "🌐",
       description: "Personal developer portfolio showcasing projects, skills, and experience. Built with Next.js and deployed on Vercel — the very site you're reading right now.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js", "Vercel"],
+      stack: ["Tailwind", "HTML/CSS", "JavaScript", "React", "Vite.js", "Vercel"],
       featured: false,
     },{
       title: "Robocoons",
@@ -206,7 +206,7 @@ const myData = {
       imgUrl: "/portafolioIsa06.png",
       icon: "🤖",
       description: "Landing page for a teenage robotics team representing Mexico in international competitions. Built to inspire, recruit sponsors, and put young engineers on the map.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      stack: ["Tailwind", "HTML/CSS", "JavaScript", "React", "Vite.js"],
       featured: false,
     },{
       title: "Memory Game",
@@ -215,7 +215,7 @@ const myData = {
       imgUrl: "/portafolioIsa05.png",
       icon: "🃏",
       description: "Interactive card-matching memory game with animated flips, win detection, and move counter. A clean example of state management and CSS transitions in React.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      stack: ["Tailwind", "HTML/CSS", "JavaScript", "React", "Vite.js"],
       featured: false,
     },{
       title: "Movies Review",
@@ -224,7 +224,7 @@ const myData = {
       imgUrl: "/portafolioIsa04.png",
       icon: "🎬",
       description: "Movie discovery app powered by a public API. Browse, search, and explore films with rich metadata, posters, and ratings — all rendered in a slick responsive UI.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      stack: ["Tailwind", "HTML/CSS", "JavaScript", "React", "Vite.js"],
       featured: false,
     },{
       title: "Weather App",
@@ -233,7 +233,7 @@ const myData = {
       imgUrl: "/portafolioIsa03.png",
       icon: "⛅",
       description: "Real-time weather search app showing current conditions, temperature, and forecasts for any city worldwide. Clean design with live API data and dynamic weather icons.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Vite.js"],
+      stack: ["Tailwind", "HTML/CSS", "JavaScript", "React", "Vite.js"],
       featured: false,
     },{
       title: "La Catrina MX",
@@ -242,7 +242,7 @@ const myData = {
       imgUrl: "/portafolioIsa02.png",
       icon: "💀",
       description: "Cultural Mexican website celebrating Día de Muertos with rich visuals, vibrant colors, and immersive storytelling — a tribute to tradition built with modern web tech.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Next.js"],
+      stack: ["Tailwind", "HTML/CSS", "JavaScript", "React", "Next.js"],
       featured: false,
     },{
       title: "Daily To-Do List",
@@ -251,7 +251,7 @@ const myData = {
       imgUrl: "/portafolioIsa01.jpg",
       icon: "✅",
       description: "Clean and minimal task manager with add, complete, and delete functionality. One of the first React projects — proof that clean UI and solid state logic go hand in hand.",
-      stack: ["Tailwind", "HTML/CSS", "Javascript", "React", "Next.js"],
+      stack: ["Tailwind", "HTML/CSS", "JavaScript", "React", "Next.js"],
       featured: false,
     },
   ],
