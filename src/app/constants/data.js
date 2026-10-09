@@ -39,7 +39,7 @@ const myData = {
   projects: [
     {
       title: "Github Explorer",
-      link: "https://github-explorer-qgqoliy21-maria-isabel-ramirezs-projects.vercel.app/",
+      link: "https://github-explorer-zeta-three.vercel.app/",
       github: "https://github.com/IsaRamDev/github-explorer",
       imgUrl: "/PortafolioIsa24.png",
       icon: "🔍",
@@ -129,7 +129,7 @@ const myData = {
       featured: true,
     },{
       title: "Lumos AI Chat",
-      link: "https://ai-chat-gkd7otv21-maria-isabel-ramirezs-projects.vercel.app/chat",
+      link: "https://ai-chat-iota-henna.vercel.app/chat",
       github: "https://github.com/IsaRamDev/ai-chat",
       imgUrl: "/portafolioIsa14.png",
       icon: "🤖",
